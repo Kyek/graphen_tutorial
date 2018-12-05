@@ -5,11 +5,14 @@ name = "pypi"
 
 [packages]
 django = "*"
+django-filter = "*"
+djangorestframework = "*"
 graphene-django = "*"
+requests = "*"
 
 [dev-packages]
 pylint = "*"
 yapf = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.6"
